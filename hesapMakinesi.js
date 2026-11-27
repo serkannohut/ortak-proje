@@ -9,3 +9,13 @@ function cikar(a, b) {
 }
 
 module.exports = { topla, cikar };
+
+function carp(a, b){
+  return a * b;
+}
+function bol(a, b){
+  if (b===0){
+    return"hata:sıfıra  bölünmez!"; 
+  }
+  return a/b;
+}
